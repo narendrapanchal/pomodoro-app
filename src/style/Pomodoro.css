@@ -1,0 +1,13 @@
+.pomodoro {
+  text-align: center;
+}
+
+.input-label {
+  display: block;
+  margin: 10px 0;
+}
+
+.input-label input {
+  margin-left: 10px;
+  width: 60px;
+}

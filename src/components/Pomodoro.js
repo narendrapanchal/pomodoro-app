@@ -5,8 +5,8 @@ import ProgressIndicator from './ProgressIndicator';
 import '../style/Pomodoro.css';
 
 const Pomodoro = () => {
-  const [workDuration, setWorkDuration] = useState(25); // Work duration in minutes
-  const [breakDuration, setBreakDuration] = useState(5); // Break duration in minutes
+  const [workDuration, setWorkDuration] = useState(25); 
+  const [breakDuration, setBreakDuration] = useState(5); 
   const [minutes, setMinutes] = useState(workDuration);
   const [seconds, setSeconds] = useState(0);
   const [isRunning, setIsRunning] = useState(false);
